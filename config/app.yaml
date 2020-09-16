@@ -1,5 +1,6 @@
 app_name: follower
 app_version: 1.0.0
+app_addr: :1234
 author: lts
 env: dev
 database:
@@ -16,3 +17,5 @@ redis:
   - host: 127.0.0.1
     port: 6379
     password: ""
+log_host: 127.0.0.1
+log_port: 544
